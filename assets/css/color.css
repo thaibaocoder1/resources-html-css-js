@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+body,
+html {
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100vh;
+  overflow: hidden;
+}
+.color {
+  font-size: 3rem;
+}
+.switch {
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: 10rem;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.switch:active {
+  color: #f56;
+}

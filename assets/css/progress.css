@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+body,
+html {
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 30rem;
+}
+.progress-done {
+  background-image: linear-gradient(135deg, #f4a, yellow);
+  border-radius: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  color: #686868;
+}
