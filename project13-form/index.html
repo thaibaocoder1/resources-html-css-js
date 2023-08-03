@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Form Register</h2>
+      <form autocomplete="off" class="form">
+        <div class="form-group">
+          <input type="email" name="email" id="form-input" class="form-input" />
+          <label for="form-input" class="form-label">Email</label>
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            name="password"
+            id="form-input"
+            class="form-input"
+          />
+          <label for="form-input" class="form-label">Password</label>
+        </div>
+        <button type="submit" class="form-btn">Submit</button>
+      </form>
+    </div>
+    <script src="./assets/scripts/form.js"></script>
+  </body>
+</html>
